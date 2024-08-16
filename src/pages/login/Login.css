@@ -1,0 +1,113 @@
+
+
+.login-container {
+    position: relative; /* Permet de positionner l'icône par rapport à ce conteneur */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .logos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Ajouter un espace entre les logos */
+    margin-bottom: 20px;
+  }
+
+  .login-input-password {
+    width: calc(100% - 30px); /* Ajuste la largeur du champ de saisie pour laisser de la place à l'icône */
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative; /* Définit la position relative pour pouvoir positionner l'icône à l'intérieur */
+}
+  
+  .login-input {
+    width: calc(100% - 30px); /* Ajuste la largeur du champ de saisie pour laisser de la place à l'icône */
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .view-class {
+    position: absolute;
+    top: 70.5%;
+    right: 80px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 20px; /* Définir une largeur fixe pour l'icône */
+    height: auto; /* Permettre à la hauteur de s'ajuster automatiquement en fonction de la largeur */
+}
+
+
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: #dc3545;
+  }
+
+  .success-message {
+    color: #dc3545;
+  }
+
+  .login-logo {
+    display: block; 
+    margin: 0 auto; 
+    width: 200px; 
+    height: auto; 
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  
+  .login-logo:hover {
+    transform: scale(1.1); 
+    opacity: 0.7; 
+  }
+  
+  
+  @keyframes move {
+    0% { transform: translateY(-20px); }
+    50% { transform: translateY(20px); }
+    100% { transform: translateY(-20px); }
+  }
+  
+  .mobile-title {
+    margin-top: 0;
+    text-align: center; 
+    font-size: 24px; 
+    color: #ff0000; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  }
+  
+  .mobile-title:hover {
+    transform: scale(1.1); 
+    opacity: 0.7; 
+  }
+  
+  
+  .body-login {
+    margin: 0;
+    padding: 0;
+    background-image: url("../../assets/rm209-ning-20-g.jpg");
+    background-size: cover;
+    background-position: center; 
+    height: 100vh;
+  }

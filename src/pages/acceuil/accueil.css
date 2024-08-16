@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    height: 100vh; /* Ensures the container takes up 100% of the viewport height */
+    width: 100vw;  /* Ensures the container takes up 100% of the viewport width */
+}
+
+
+
+/* .main-content {
+    width: 70%;
+    height: 100%; /* Ensures the main content takes up 100% of the parent container's height */
+    /* background-color: black; */
+/* } */ 
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffffff, #e0e0e0);
+}
